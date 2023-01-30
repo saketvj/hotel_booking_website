@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.loginPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  .container {
+    position: absolute;
+    top: 108px;
+    height: 75vh;
+    width: 85vw;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    // flex-direction: column;
+    justify-content: center;
+
+    .left {
+      display: flex;
+
+      width: 45vw;
+      height: 75vh;
+      flex-direction: column;
+      // flex: 6;
+      background-color: bisque;
+      .logo {
+        position: absolute;
+      }
+      .itemContainer {
+        display: flex;
+        flex-direction: column;
+        input {
+          width: 350px;
+          margin: 10px 20px 10px 100px;
+          padding: 10px;
+          border-radius: 6px;
+        }
+      }
+    }
+    .right {
+      flex: 6;
+
+      .imgContainer {
+        // width: 300px;
+        // height: 500px;
+
+        img {
+          height: 616px;
+          width: 416px;
+        }
+      }
+    }
+  }
+}
