@@ -1,0 +1,224 @@
+.home {
+    height: 100vh;
+
+    .backgroundImage {
+        .backImage {
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+
+    .MiddleHome {
+        padding-top: calc(262 * 100% / 2985);
+        padding-left: calc(100 * 100% / 2985);
+        padding-right: calc(100 * 100% / 2985);
+        padding-bottom: calc(400 * 100% / 2985);
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        justify-content: flex-end;
+
+        .recent {
+            .text {
+                font-size: 32px;
+                font-weight: 700;
+            }
+
+            .recentSearches {
+                padding-top: calc(100 * 100% / 2985);
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+        }
+
+        .tarvelSection {
+            .subject {
+                .heading {
+                    font-size: 32px;
+                    font-weight: 700;
+                    padding-bottom: 10px;
+                }
+
+                .desc_All {
+                    display: flex;
+                    justify-content: space-between;
+                    .descreption {
+                        width: 60%;
+                        padding-bottom: 5%;
+                        font-family: "Montserrat";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 20px;
+                    }
+                    .All {
+                        box-sizing: border-box;
+
+                        /* Auto layout */
+
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 8px 16px;
+                        gap: 4px;
+
+                        width: 100px;
+                        height: 40px;
+
+                        /* Mint Green */
+
+                        border: 1px solid #8dd3bb;
+                        border-radius: 4px;
+                    }
+                }
+            }
+
+            .famousCity {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+
+        .BackPackSection {
+            padding-top: calc(100 * 100% / 2985);
+
+            .subject {
+                .heading {
+                    font-size: 32px;
+                    font-weight: 700;
+                    padding-bottom: 10px;
+                }
+
+                .desc_All {
+                    display: flex;
+                    justify-content: space-between;
+                    .descreption {
+                        width: 65%;
+                        padding-bottom: 5%;
+                        font-family: "Montserrat";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 20px;
+                    }
+                    .All {
+                        box-sizing: border-box;
+
+                        /* Auto layout */
+
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 8px 16px;
+                        gap: 4px;
+
+                        width: 100px;
+                        height: 40px;
+
+                        /* Mint Green */
+
+                        border: 1px solid #8dd3bb;
+                        border-radius: 4px;
+                    }
+                }
+            }
+
+            .BackPackingCountry {
+                display: flex;
+                padding-bottom: calc(100 * 100% / 2985);
+
+                justify-content: space-between;
+                .CountryCard {
+                    width: 680px;
+
+                    padding: 24px;
+                    background: #8dd3bb;
+                    border-radius: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    .headingAndDescription {
+                        .heading {
+                            display: flex;
+                            justify-content: space-between;
+                            .Country {
+                                /* TradeGothic/Bold/40px */
+
+                                font-family: "TradeGothic LT Extended";
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 40px;
+                                line-height: 51px;
+                                width: 214px;
+                                /* Blackish Green */
+
+                                color: #112211;
+                            }
+                            .CountryTravelPrice {
+                                background: #ffffff;
+                                border-radius: 8px;
+                                width: 68px;
+                                height: 62px;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                padding: 8px;
+                                gap: 4px;
+                                h5 {
+                                    font-family: "TradeGothic LT Extended";
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 14px;
+                                    line-height: 18px;
+                                    /* identical to box height */
+
+                                    /* Blackish Green */
+
+                                    color: #112211;
+                                }
+
+                                h3 {
+                                    font-family: "Montserrat";
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    font-size: 20px;
+                                    line-height: 24px;
+
+                                    /* Blackish Green */
+
+                                    color: #112211;
+                                }
+                            }
+                        }
+                        .Description {
+                            padding-top: 50px;
+                        }
+                    }
+
+                    .BookHotel {
+                        p {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-items: center;
+                            height: 48px;
+                            background: #ffffff;
+                            border-radius: 4px;
+                        }
+                    }
+                }
+                .PicsContainer {
+                    display: grid;
+                    gap: 30px;
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-rows: 1fr 1fr;
+                }
+            }
+        }
+    }
+}

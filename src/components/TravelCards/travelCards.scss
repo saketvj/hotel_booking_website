@@ -1,0 +1,46 @@
+.travelcards {
+    position: relative;
+    display: inline-block;
+
+    .info_book {
+        position: absolute;
+        bottom: 5px;
+        width: 100%;
+
+        .info {
+            margin: calc(100 * 100% / 2985);
+
+            p#places {
+                font-family: "Montserrat";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 29px;
+                color: white;
+            }
+
+            .tagline {
+                display: flex;
+                justify-content: space-between;
+                font-family: "Montserrat";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                font-weight: 600;
+
+                color: #ffffff;
+            }
+        }
+
+        .bookHotel {
+            height: 48px;
+            margin: calc(100 * 100% / 2985);
+            display: flex;
+            background: #8dd3bb;
+            border-radius: 4px;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
