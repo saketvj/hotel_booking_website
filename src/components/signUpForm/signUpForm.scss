@@ -1,0 +1,118 @@
+.wrapper {
+  width: 100%;
+  //   height: 400px;
+  font-family: "Montserrat";
+  //   color: orange;
+  //   background-color: orange;
+  display: flex;
+  align-items: center;
+
+  form {
+    width: 100%;
+    height: 100%;
+    font-family: "Montserrat";
+    // background-color: yellow;
+    .info {
+      height: 100%;
+      width: 100%;
+      //   font-family: "Montserrat";
+      font-family: "Montserrat";
+      //   background-color: red;
+
+      .info50 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        // margin-top: 40px;
+      }
+    }
+    .btn {
+      width: 100%;
+      background-color: #8dd3bb;
+      border: none;
+      height: 48px;
+      border-radius: 4px;
+      padding: 8px, 16px, 8px, 16px;
+      color: #112211;
+      font-size: 14px;
+      font-family: "Montserrat";
+      font-weight: 500;
+      cursor: pointer;
+    }
+    .text {
+      margin-top: 10px;
+      text-align: center;
+      font-size: 14px;
+      line-height: 17px;
+      color: rgb(136, 131, 131);
+      span {
+        color: #ff8682;
+        font-weight: 500;
+      }
+    }
+    .footer {
+      width: 100%;
+      .icons {
+        width: 100%;
+        // background-color: crimson;
+        height: 40px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        // height: 56px;
+        // width: 160px;
+
+        .icon {
+          margin-top: 20px;
+          width: 110px;
+          // height: 56px;
+          // left: 176px;
+          // top: 0px;
+          border: 1px solid black;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 4px;
+          padding: 16px 24px 16px 24px;
+          cursor: pointer;
+
+          img {
+            width: 24px;
+            height: 24px;
+          }
+        }
+      }
+    }
+  }
+  .loginWith {
+    // margin-top: -13px;
+    text-align: center;
+    position: relative;
+    // background-color: crimson;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    // margin-bottom: 20px;
+    // z-index: 4;
+    .loginn {
+      padding: 0 5px 0;
+      opacity: 99%;
+      z-index: 4;
+      position: absolute;
+      z-index: 4;
+      background-color: white;
+      margin-bottom: 20px;
+    }
+    .line1 {
+      border-top: 0.5px solid black;
+      opacity: 50%;
+      position: absolute;
+      top: 9px;
+      width: 100%;
+      background-color: black;
+    }
+  }
+}
