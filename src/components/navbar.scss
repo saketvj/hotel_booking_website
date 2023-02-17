@@ -1,0 +1,44 @@
+
+.navBar{
+     
+    background-color: white;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: calc(21 * 100%/ 2985) 6.025126%;
+
+    .favSection{
+     flex-direction: row;
+     display: flex;
+    
+            .user{
+
+               display: flex;       
+               align-items: center; 
+               font-weight: bold;
+               margin: 10px;
+               .userAvatar {
+                height:32px;
+                width: 32px;   
+                border-radius: 50%; 
+                display: flex;       
+                justify-content: center;
+                align-items: center;
+                border-color: black;
+                border-style: solid;
+               }
+
+               .userName{
+                padding-left:10px;
+               }
+  
+            }
+        
+    
+    }
+
+  
+}
